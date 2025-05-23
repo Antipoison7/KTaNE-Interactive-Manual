@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<svg width="205" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ff0000" fill-opacity="0" height="200" id="svg_1" stroke="#000000" stroke-width="5" width="200" x="2" y="2"/>
+  <rect fill="#ff0000" fill-opacity="0" height="34" id="svg_13" stroke="#000000" stroke-width="5" width="64" x="10" y="12"/>
+  <rect fill="#ff0000" fill-opacity="0" height="34" id="svg_14" stroke="#000000" stroke-width="5" width="64" x="130" y="12"/>
+  <rect fill="#000000" height="34" id="svg_16" stroke="#000000" stroke-width="5" width="34" x="86" y="12"/>
+  <ellipse cx="94" cy="102" fill="#000000" fill-opacity="0.01" id="svg_17" rx="40" ry="40" stroke="#000000" stroke-width="5" transform="matrix(-1.0303 0 0 1 198.667 0)"/>
+  <ellipse cx="102" cy="102" fill="#ff0000" fill-opacity="0" id="svg_18" rx="16" ry="16" stroke="#000000" stroke-width="5"/>
+  <polygon cx="32" cy="132" edge="17.73" fill="#ff0000" fill-opacity="0" id="svg_19" orient="x" points="132.73574829101562,102.49500274658203 117.38212585449219,111.35941314697266 117.38212585449219,93.63058471679688 132.73574829101562,102.49500274658203" shape="regularPoly" sides="3" stroke="#000000" stroke-width="5"/>
+  <text fill="#000000" font-family="Monospace" font-size="16" id="svg_21" stroke="#000000" stroke-width="0" text-anchor="middle" x="102" xml:space="preserve" y="80">UP</text>
+  <g id="svg_34" transform="translate(2.5 2.5) translate(0 -2) translate(0 -2) matrix(1.0303 0 0 1 -98.4003 52)">
+   <ellipse cx="130" cy="72" fill="#000000" fill-opacity="0" id="svg_33" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="152" cy="94" fill="#000000" fill-opacity="0" id="svg_32" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="178" cy="112" fill="#000000" fill-opacity="0" id="svg_31" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="128" cy="96" fill="#000000" fill-opacity="0" id="svg_30" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="150" cy="118" fill="#000000" fill-opacity="0" id="svg_29" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="176" cy="136" fill="#000000" fill-opacity="0" id="svg_28" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+  </g>
+  <g id="svg_35" transform="translate(2.5 2.5) translate(0 -2) translate(0 -2) translate(2 0) matrix(-1.0303 0 0 1 196.667 4)">
+   <ellipse cx="32" cy="120" fill="#000000" fill-opacity="0" id="svg_22" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="54" cy="142" fill="#000000" fill-opacity="0" id="svg_23" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="80" cy="160" fill="#000000" fill-opacity="0" id="svg_24" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="30" cy="144" fill="#000000" fill-opacity="0" id="svg_27" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="52" cy="166" fill="#000000" fill-opacity="0" id="svg_26" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+   <ellipse cx="78" cy="184" fill="#000000" fill-opacity="0" id="svg_25" rx="8" ry="8" stroke="#000000" stroke-width="5"/>
+  </g>
+ </g>
+</svg>

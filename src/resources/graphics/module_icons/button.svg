@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg width="205" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ff0000" fill-opacity="0" height="200" id="svg_2" stroke="#000000" stroke-width="5" width="200" x="2" y="2"/>
+  <ellipse cx="178" cy="26" fill="#ff0000" fill-opacity="0" id="svg_3" rx="16" ry="16" stroke="#000000" stroke-width="5"/>
+  <ellipse cx="76" cy="116" fill="#ff0000" fill-opacity="0" id="svg_4" rx="60" ry="60" stroke="#000000" stroke-width="5"/>
+  <rect fill="#ff0000" fill-opacity="0" height="100" id="svg_5" stroke="#000000" stroke-width="5" width="24" x="166" y="66"/>
+  <text fill="#000000" font-family="Monospace" font-size="24" id="svg_7" stroke="#000000" stroke-width="0" text-anchor="middle" x="76" xml:space="preserve" y="122">[TEXT]</text>
+ </g>
+</svg>

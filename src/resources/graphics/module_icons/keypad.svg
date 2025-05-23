@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="205" height="205" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ff0000" fill-opacity="0" height="200" id="svg_1" stroke="#000000" stroke-width="5" width="200" x="2" y="2"/>
+  <ellipse cx="178" cy="26" fill="#ff0000" fill-opacity="0" id="svg_2" rx="16" ry="16" stroke="#000000" stroke-width="5"/>
+  <rect fill="#ff0000" fill-opacity="0" height="58" id="svg_4" stroke="#000000" stroke-width="5" width="58" x="26" y="120"/>
+  <rect fill="#ff0000" fill-opacity="0" height="58" id="svg_5" stroke="#000000" stroke-width="5" width="58" x="94" y="120"/>
+  <rect fill="#ff0000" fill-opacity="0" height="58" id="svg_7" stroke="#000000" stroke-width="5" width="58" x="26" y="52"/>
+  <rect fill="#ff0000" fill-opacity="0" height="58" id="svg_6" stroke="#000000" stroke-width="5" width="58" x="94" y="52"/>
+  <rect fill="#ff0000" fill-opacity="0" height="4" id="svg_8" stroke="#000000" stroke-width="5" width="22" x="44" y="60"/>
+  <rect fill="#ff0000" fill-opacity="0" height="4" id="svg_9" stroke="#000000" stroke-width="5" width="22" x="112" y="60"/>
+  <rect fill="#ff0000" fill-opacity="0" height="4" id="svg_10" stroke="#000000" stroke-width="5" width="22" x="112" y="128"/>
+  <rect fill="#ff0000" fill-opacity="0" height="4" id="svg_11" stroke="#000000" stroke-width="5" width="22" x="44" y="128"/>
+ </g>
+</svg>

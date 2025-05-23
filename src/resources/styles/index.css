@@ -1,4 +1,15 @@
 .module-grid{
     display: grid;
-    grid-template-columns: max-content max-content max-content max-content;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    gap: 5px;
+    
+}
+
+.module-grid a img{
+    background-color: white;
+}
+
+.module-grid a img:hover{
+    filter: brightness(0.8);
+    transition: all 0.1s ease-in-out;
 }
