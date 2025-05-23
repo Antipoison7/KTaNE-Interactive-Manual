@@ -1,0 +1,45 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color:beige;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main{
+    flex: 1 0 auto;
+    padding: 10px 10px;
+}
+
+/* Thanks for the footer CSS, I really should remember how to do this */
+/* https://stackoverflow.com/questions/16679146/force-footer-on-bottom-on-pages-with-little-content */
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: #8AD91C;
+}
