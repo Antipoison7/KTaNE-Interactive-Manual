@@ -34,6 +34,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch*/
   border-radius: 10px;
 }
 
+.slider:hover{
+  background-color: #969696;
+}
+
 .slider:before {
   position: absolute;
   content: "Original";
@@ -52,6 +56,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch*/
 
 input:checked + .slider {
   background-color: #2196F3;
+}
+
+input:checked:hover + .slider {
+  background-color: #1569ad;
 }
 
 input:focus + .slider {
