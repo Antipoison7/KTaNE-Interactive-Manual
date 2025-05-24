@@ -1,0 +1,18 @@
+table{
+    border-spacing: 1rem 0 !important;
+    border-collapse: separate !important;
+}
+
+.module-body td{
+    border-bottom: 1px solid black !important;
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+    border-top: 0;
+}
+
+.module-body td:first-{
+    border-top: 1px solid black !important;
+}
+.module-body tr:first-child td{
+    border-top: 1px solid black !important;
+}
