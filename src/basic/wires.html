@@ -8,6 +8,7 @@
 
     <title>Wires - Basic</title>
     <link rel="stylesheet" href="../resources/styles/root.css">
+    <link rel="stylesheet" href="../resources/styles/modules.css">
     <link rel="icon" href="../resources/graphics/system/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,58 @@
         <h1>On the Subject of Wires</h1>
     </header>
     <main>
+        <div class="module-header">
+            <h2 class="subTitle">Wires are the lifeblood of electronics! Wait, no, electricity is the lifeblood.<br>
+            Wires are more like the arteries. The veins? No Matter...</h2>
+            <ul>
+                <li>A wire module can have 3-6 wires on it.</li>
+                <li>Only the one correct wire needs to be cut to disarm the module.</li>
+                <li>Wire ordering begins with the first on the top.</li>
+            </ul>
+        </div>
+        <div class="module-body">
+            <table class="table-padding-lr">
+                <tr>
+                    <td>
+                        <h3 class="underline">3 wires:</h3>
+                        <p>If there are no red wires, cut the second wire.<br>
+                        Otherwise, if the last wire is white, cut the last wire.<br>
+                        Otherwise, if there is more than one blue wire, cut the last blue wire.<br>
+                        Otherwise, cut the last wire.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 class="underline">4 wires:</h3>
+                        <p>If there is more than one red wire and the last digit of the serial number is odd, cut the last red wire.<br>
+                        Otherwise, if the last wire is yellow and there are no red wires, cut the first wire.<br>
+                        Otherwise, if there is exactly one blue wire, cut the first wire.<br>
+                        Otherwise, if there is more than one yellow wire, cut the last wire.<br>
+                        Otherwise, cut the second wire.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 class="underline">5 wires:</h3>
+                        <p>If the last wire is black and the last digit of the serial number is odd, cut the fourth wire.<br>
+                        Otherwise, if there is exactly one red wire and there is more than one yellow wire, cut the first wire.<br>
+                        Otherwise, if there are no black wires, cut the second wire.<br>
+                        Otherwise, cut the first wire.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 class="underline">6 wires:</h3>
+                        <p>If there are no yellow wires and the last digit of the serial number is odd, cut the third wire.<br>
+                        Otherwise, if there is exactly one yellow wire and there is more than one white wire, cut the fourth wire.<br>
+                        Otherwise, if there are no red wires, cut the last wire.<br>
+                        Otherwise, cut the fourth wire.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
     </main>
     <footer>
         <div class="footer-content">

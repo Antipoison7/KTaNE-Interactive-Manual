@@ -1,0 +1,32 @@
+.subTitle{
+    font-size: 0.9rem;
+}
+
+.module-header{
+
+}
+
+.module-body{
+
+}
+
+.module-body table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.module-body td{
+    border: 1px solid black;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.table-padding-lr tr td{
+    padding: 0px 10px
+}
+
+.table-padding-lr tr td h3{
+    margin: 10px 0 0 0;
+}
