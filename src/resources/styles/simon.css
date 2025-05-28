@@ -1,0 +1,8 @@
+.simon-table tbody tr th, .simon-table tbody tr td{
+    border: 1px solid black;
+    padding: 0.4rem;
+}
+
+.hide-border {
+    border: none !important;
+}

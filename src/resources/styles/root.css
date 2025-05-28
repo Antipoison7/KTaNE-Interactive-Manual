@@ -43,3 +43,7 @@ footer a{
 footer a:hover{
     color: #8AD91C;
 }
+
+.underline{
+    text-decoration: underline;
+}
