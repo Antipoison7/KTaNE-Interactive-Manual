@@ -1,0 +1,47 @@
+.whos-on-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem;
+    width: 40rem;
+    margin: 0 auto;
+}
+
+.whos-on-item table{
+    width: 100%;
+}
+
+.whos-on-item th{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.whos-on-item td{
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+}
+
+.whos-on-wordList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whos-on-item div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whos-on-wordList th, .whos-on-wordList td{
+    padding: 0.3rem;
+}
+
+.whos-on-wordList th{
+    border: 1px solid black;
+}
