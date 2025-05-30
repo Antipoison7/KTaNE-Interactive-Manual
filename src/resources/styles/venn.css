@@ -1,0 +1,44 @@
+.key-sbs{
+    display: flex;
+    gap: 1rem;
+}
+
+.key-grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.key-grid  > *{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.key-grid p{
+    margin: 0;
+    padding: 1rem;
+}
+
+.header{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.border{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.sbs{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+svg{
+    display: block;
+    margin: 0 auto;
+}
