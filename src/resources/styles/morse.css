@@ -1,0 +1,46 @@
+@font-face {
+    /* https://www.dafont.com/morse.font */
+    font-family: "MorseFont";
+    src: url(../fonts/morse.ttf) format("truetype");
+}
+
+.morse-font{
+    font-family: "MorseFont", Verdana;
+    font-weight: bold;
+}
+
+.left-side-box{
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.module-body{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.morse-chart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sbs{
+    font-size: xx-large;
+}
+
+.morse-chart div p{
+    margin: 0.1rem 0;
+}
+
+th{
+    border: 1px solid black;
+    padding: 0.3rem;
+}
+
+td{
+    padding: 0.3rem;
+    text-align: center;
+}
