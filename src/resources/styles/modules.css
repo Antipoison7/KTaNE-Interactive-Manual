@@ -2,12 +2,9 @@
     font-size: 0.9rem;
 }
 
-.module-header{
-
-}
-
-.module-body{
-
+header:nth-child(1){
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 .module-body table{
