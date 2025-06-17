@@ -1,3 +1,9 @@
+:root{
+    --blue: #1d348a;
+    --red: #db0600;
+    --white: white;
+}
+
 .key-sbs{
     display: flex;
     gap: 1rem;
@@ -36,6 +42,132 @@
     flex-direction: row;
     gap: 1rem;
     justify-content: center;
+}
+
+.venn-table .hide-border{
+    border: 0;
+}
+
+.venn-table td, .venn-table th{
+    width: 3em;
+    height: 2em;
+    text-align: center;
+}
+
+.venn-legend .side{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin: 10px 0;
+}
+
+.venn-legend p{
+    margin: 0;
+}
+
+.venn-legend-item{
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Legend colour icons and formatting */
+.legend-color{
+    height: 3em;
+    width: 1.4em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0 0 0 1px black;
+    margin: 2px;
+}
+
+.legend-white{
+    background-color: white;
+}
+
+.legend-red{
+    background-color: var(--red);
+}
+
+.legend-blue{
+    background-color: var(--blue);
+}
+
+.legend-white-blue{
+    background: linear-gradient(
+        135deg,
+        var(--white) 0%,
+        var(--white) 20%,
+        var(--blue) 20%,
+        var(--blue) 40%,
+        var(--white) 40%,
+        var(--white) 60%,
+        var(--blue) 60%,
+        var(--blue) 80%,
+        var(--white) 80%,
+        var(--white) 100%
+    );
+    border: 1px solid var(--blue);
+}
+
+.legend-white-red{
+    background: linear-gradient(
+        135deg,
+        var(--white) 0%,
+        var(--white) 20%,
+        var(--red) 20%,
+        var(--red) 40%,
+        var(--white) 40%,
+        var(--white) 60%,
+        var(--red) 60%,
+        var(--red) 80%,
+        var(--white) 80%,
+        var(--white) 100%
+    );
+    border: 1px solid var(--red);
+}
+
+.legend-blue-red{
+    background: linear-gradient(
+        135deg,
+        var(--blue) 0%,
+        var(--blue) 20%,
+        var(--red) 20%,
+        var(--red) 40%,
+        var(--blue) 40%,
+        var(--blue) 60%,
+        var(--red) 60%,
+        var(--red) 80%,
+        var(--blue) 80%,
+        var(--blue) 100%
+    );
+
+    border: 1px solid var(--red);
+}
+
+
+/* Fill colours for ther table and legend */
+.cut{
+    background-color: #c9ffa4;
+}
+
+.dont-cut{
+    background-color: #e99495;
+}
+
+.two-or-more{
+    background-color: #f4e79f;
+}
+
+.parallel{
+    background-color: #cba0fc;
+}
+
+.serial{
+    background-color: #cbdbda;
 }
 
 svg{
