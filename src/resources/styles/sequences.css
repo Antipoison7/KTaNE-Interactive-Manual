@@ -29,3 +29,27 @@
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
+
+.sequence-column p:nth-child(2n+3){
+    text-align: right;
+}
+
+.sequence-column p:nth-child(odd+3){
+    text-align: left;
+}
+
+.heading-red{
+    color: red;
+}
+
+.heading-blue{
+    color: cyan;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-blue{
+    color: blue;
+}
