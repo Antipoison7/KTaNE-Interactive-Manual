@@ -2,7 +2,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    max-width: 32rem;
+    max-width: 38rem;
+}
+
+.module-body div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
 }
 
 img{
