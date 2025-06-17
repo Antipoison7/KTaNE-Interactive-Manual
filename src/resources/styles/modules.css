@@ -28,6 +28,9 @@ header:nth-child(1){
     margin: 10px 0 0 0;
 }
 
+.underline{
+    text-decoration: underline;
+}
 
 /* For some of the spans, it is more convenient to use a class instead of <strong /> */
 .bold{
